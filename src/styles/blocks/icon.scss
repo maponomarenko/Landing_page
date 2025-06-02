@@ -2,7 +2,7 @@
   display: block;
   height: 24px;
   width: 24px;
-  background-image: url(../images/icons/icon-menu.jpg);
+  background-image: url(../images/icons/icon-menu.png);
   background-size: cover;
 
   @include hover(transform, scale(1.2));
@@ -13,7 +13,7 @@
   }
 
   &--phone {
-    background-image: url(../images/icons/icon-phone.jpg);
+    background-image: url(../images/icons/icon-phone.png);
     position: relative;
 
     &:hover::before {
@@ -33,10 +33,10 @@
   }
 
   &--menu {
-    background-image: url(../images/icons/icon-menu.jpg);
+    background-image: url(../images/icons/icon-menu.png);
   }
 
   &--close {
-    background-image: url(../images/icons/icon-close.jpg);
+    background-image: url(../images/icons/icon-close.png);
   }
 }
